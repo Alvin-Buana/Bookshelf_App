@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, input, button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url(Asset/1884665.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+header{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+}
+
+.search_section{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+ 
+
+}
+.search_section h2{
+    text-align: center;
+    font-size: 40px;
+}
+.search_section label{
+    font-size: 30px;
+}
+
+.search_section input{
+    font-size: 25px;
+}
+.search_section button{
+    font-size: 20px;
+    padding: 3px;
+}
+
+.input_section{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+
+    margin: 10px;
+}
+
+.input_section .inputBook .book_detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.inputBook .book_detail .input{
+    width: calc(100% / 2 - 20px);
+}
+
+.book_detail .input input{
+    height: 45px;
+    width: 100%;
+}
+input[type = checkbox]{
+    transform: scale(2);
+    width: 10%;
+    
+}
+
+.input_section h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.input_section label{
+    font-size: 30px;
+}
+
+.input_section input{
+    font-size: 25px;
+}
+.input_section button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.Sec2{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.book_shelf{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 16px;
+
+    margin: 10px;
+}
+.book_shelf h2{
+    text-align: center;
+}
+.book_shelf > .book_list {
+    padding: 16px;
+}
+
+.book_shelf > .book_list > .book_item {
+    padding: 8px 16px 16px 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.book_shelf > .book_list > .book_item > h3, p {
+    margin: 8px 0;
+}
+
+.book_shelf > .book_list > .book_item > .action > button {
+    border: 0;
+    padding: 5px;
+    margin: 0 5px 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book_shelf > .book_list > .book_item > .action > .green {
+    background-color: darkgreen;
+    color: white;
+}
+
+.book_shelf > .book_list > .book_item > .action > .red {
+    background-color: darkred;
+    color: white;
+}
+
+.popup{
+    background-color: rgba(0, 0, 0, 0.6);
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+
+}
+.content{
+    height: 75%;
+    width: 500px;
+    background : #fff;
+    padding : 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.edit{
+    border: 0;
+    padding: 5px;
+    margin: 0 5px 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
